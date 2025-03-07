@@ -1,3 +1,5 @@
+
+cp mongo.repo /etc/mongod.conf
 dnf install mongodb-org -y 
 
 
