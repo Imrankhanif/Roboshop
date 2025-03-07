@@ -1,5 +1,5 @@
 
-cp mongo.repo /etc/mongod.conf
+cp mongo.repo /home/centos/Roboshop/mongod.conf
 dnf install mongodb-org -y 
 
 
