@@ -2,7 +2,7 @@ echo -e "\e[33m Copy mongodb repo file\e[0m"
 cp mongo.repo /home/centos/Roboshop/mongod.conf   &>>/tmp/roboshop.log
 
 echo -e "\e[33m Install Mongodb\e[0m"
-dnf install mongodb-org -y  &>>/tmp/roboshop.log
+yum install mongodb-org -y  &>>/tmp/roboshop.log
 
 echo -e "\e[33m enable mondodb\e[0m"
 systemctl enable mongod  &>>/tmp/roboshop.log
