@@ -1,3 +1,4 @@
+curl -sL https://rpm.nodesource.com/setup_lts.x | bash
 dnf module disable nodejs -y
 dnf module enable nodejs:18 -y
 
