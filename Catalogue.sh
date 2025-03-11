@@ -18,7 +18,7 @@ unzip /tmp/catalogue.zip
 cd /app 
 npm install 
 
-cp catalogue.service /etc/systemd/system/catalogue.service
+cp cat.service /etc/systemd/system/cat.service
 
 systemctl daemon-reload
 
