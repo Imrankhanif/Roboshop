@@ -17,7 +17,7 @@ unzip /tmp/catalogue.zip
 cd /app 
 npm install 
 
-cp catalogue.service /etc/systemd/system/catalogue.service
+cp catalogue.service /home/centos/Roboshop/catalogue.service
 
 systemctl daemon-reload
 
@@ -25,7 +25,7 @@ systemctl enable catalogue
 systemctl start catalogue
 
 
-cp mongo.repo /etc/yum.repos.d/mongo.repo
+cp mongo.repo /home/centos/Roboshop/mongo.repo
 
 dnf install mongodb-org-shell -y
 
